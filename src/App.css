@@ -1,38 +1,43 @@
-.App {
+body {
+  background-image: url("https://images7.alphacoders.com/611/thumb-1920-611159.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.co {
+  width: 80%;
+  float: left;
+  text-align: justify;
+}
+
+.comillasL {
+  width: 10%;
+  font-family: 'Times New Roman',serif;
+  color: #b2b7f2;
+  margin: -9px;
+  margin-right: 9px;
+  font-size: 2.3em; 
+  font-weight: bold;
+  float: left;
+}
+.comillasR {
+  width: 10%;
+  font-family: 'Times New Roman',serif; 
+  color: #b2b7f2; 
+  font-size: 2.3em; 
+  font-weight: bold;
+  float: right;
+  margin: -9px;
+  padding-top: 11%;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.centrar {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
